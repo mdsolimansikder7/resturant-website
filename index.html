@@ -1,80 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 <head>
-    <title>Food Fiesta - Restaurant Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Fiesta — Delicious Food, Happy Mood!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<center>
+<header>
+  <div class="nav-wrap">
+    <a href="#top" class="brand">
+      <img src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png" alt="Food Fiesta icon">
+      Food<span class="fiesta">Fiesta</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#appetizers">Appetizers</a></li>
+        <li><a href="#main-course">Main Course</a></li>
+        <li><a href="#desserts">Desserts</a></li>
+        <li><a href="#drinks">Drinks</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-    <!-- Logo -->
-    <img src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png"
-         width="100" height="100">
+<main id="top">
 
-    <h1>Food Fiesta</h1>
-    <p><b>Delicious Food, Happy Mood!</b></p>
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">Dhaka's Late-Night Food Stall</span>
+      <h1>Delicious Food,<br><em>Happy Mood!</em></h1>
+      <p class="hero-tag">Fresh off the grill, straight from the fryer — hand-picked stall favourites at fiesta prices. Order now, eat happy.</p>
+      <div class="hero-cta">
+        <a href="#appetizers" class="btn btn-primary">See the Menu</a>
+        <a href="#drinks" class="btn btn-ghost">Jump to Drinks</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900" alt="Food Fiesta spread">
+      <span class="price-chip">Today's deal · up to ৳50 off</span>
+    </div>
+  </section>
 
-    <!-- Restaurant Banner -->
-    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900"
-         width="700" height="350">
+  <div class="lights" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
 
-</center>
+  <section class="menu">
 
-<hr>
+    <div class="section-head" id="appetizers">
+      <span class="num">01</span>
+      <h2>🍟 Appetizers</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="stall">
+      <div class="stall-photo">
+        <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?w=500" alt="French fries and chicken wings">
+      </div>
+      <div class="stall-items">
+        <div class="ticket">
+          <div>
+            <span class="name">French Fries</span>
+            <span class="desc">Crisp-cut, double-fried, sea salt finish</span>
+          </div>
+          <div class="price-block">
+            <span class="price-old">৳180</span>
+            <span class="price-new">৳150</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+        <div class="ticket">
+          <div>
+            <span class="name">Chicken Wings</span>
+            <span class="desc">Smoky glaze, served with dip</span>
+          </div>
+          <div class="price-block">
+            <span class="price-old">৳300</span>
+            <span class="price-new">৳250</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
 
-<h2>🍟 Appetizers</h2>
+    <div class="section-head" id="main-course">
+      <span class="num">02</span>
+      <h2>🍔 Main Course</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="stall reverse">
+      <div class="stall-photo">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" alt="Beef burger and chicken biryani">
+      </div>
+      <div class="stall-items">
+        <div class="ticket">
+          <div>
+            <span class="name">Beef Burger</span>
+            <span class="desc">Charcoal-grilled patty, house sauce</span>
+          </div>
+          <div class="price-block">
+            <span class="price-old">৳350</span>
+            <span class="price-new">৳300</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+        <div class="ticket">
+          <div>
+            <span class="name">Chicken Biryani</span>
+            <span class="desc">Slow-cooked, aromatic basmati</span>
+          </div>
+          <div class="price-block">
+            <span class="price-old">৳400</span>
+            <span class="price-new">৳350</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
 
-<img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?w=250"
-     width="200">
+    <div class="section-head" id="desserts">
+      <span class="num">03</span>
+      <h2>🍰 Desserts</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="stall">
+      <div class="stall-photo">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500" alt="Chocolate cake and ice cream">
+      </div>
+      <div class="stall-items">
+        <div class="ticket">
+          <div>
+            <span class="name">Chocolate Cake</span>
+            <span class="desc">Rich, fudgy, served warm</span>
+          </div>
+          <div class="price-block">
+            <span class="price-new flat">৳180</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+        <div class="ticket">
+          <div>
+            <span class="name">Ice Cream</span>
+            <span class="desc">Two scoops, your choice of flavour</span>
+          </div>
+          <div class="price-block">
+            <span class="price-new flat">৳120</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
 
-<ul>
-    <li>French Fries <del>৳180</del> <b>৳150</b></li>
-    <li>Chicken Wings <del>৳300</del> <b>৳250</b></li>
-     <button>Order Now</button>
-</ul>
+    <div class="section-head" id="drinks">
+      <span class="num">04</span>
+      <h2>🥤 Drinks</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="stall reverse">
+      <div class="stall-photo">
+        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500" alt="Coffee and soft drink">
+      </div>
+      <div class="stall-items">
+        <div class="ticket">
+          <div>
+            <span class="name">Coffee</span>
+            <span class="desc">Freshly brewed, hot or iced</span>
+          </div>
+          <div class="price-block">
+            <span class="price-new flat">৳100</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+        <div class="ticket">
+          <div>
+            <span class="name">Soft Drink</span>
+            <span class="desc">Chilled, 250ml</span>
+          </div>
+          <div class="price-block">
+            <span class="price-new flat">৳50</span>
+          </div>
+          <button class="order-btn">Order Now</button>
+        </div>
+      </div>
+    </div>
 
-<hr>
+  </section>
 
-<h2>🍔 Main Course</h2>
+</main>
 
-<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=250"
-     width="200">
-
-<ul>
-    <li>Beef Burger <del>৳350</del> <b>৳300</b></li>
-    <li>Chicken Biryani <del>৳400</del> <b>৳350</b></li>
-     <button>Order Now</button>
-</ul>
-
-<hr>
-
-<h2>🍰 Desserts</h2>
-
-<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=250"
-     width="200">
-
-<ul>
-    <li>Chocolate Cake - ৳180</li>
-    <li>Ice Cream - ৳120</li>
-     <button>Order Now</button>
-</ul>
-
-<hr>
-
-<h2>🥤 Drinks</h2>
-
-<img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=250"
-     width="200">
-
-<ul>
-    <li>Coffee - ৳100</li>
-    <li>Soft Drink - ৳50</li>
-     <button>Order Now</button>
-</ul>
-
-<hr>
-
-
+<footer>
+  <div class="brand" style="justify-content:center;">
+    <img src="https://cdn-icons-png.flaticon.com/512/5787/5787016.png" alt="Food Fiesta icon" style="width:24px;height:24px;">
+    Food<span class="fiesta" style="color:var(--mango);">Fiesta</span>
+  </div>
+  <p>Made with <span class="heart">♥</span> and a little too much chili powder.</p>
+</footer>
 
 </body>
 </html>
